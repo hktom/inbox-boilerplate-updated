@@ -8,5 +8,12 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "2.1.15",
+    "ganache": "7.9.2",
+    "mocha": "11.4.0",
+    "solc": "0.8.19",
+    "web3": "4.16.0"
   }
 }
