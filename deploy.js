@@ -25,4 +25,4 @@ const deploy = async () => {
   provider.engine.stop();
 };
 
-deploy().catch(console.error);
+deploy();
